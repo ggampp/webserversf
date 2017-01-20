@@ -12,6 +12,6 @@ http.createServer(function(req, res){
         res.writeHead(500);
         res.end('Internal Server Error');
     }
-}).listen('8080', function(){
-    console.log('Server running at http://127.0.0.1:80/');
+}).listen(process.env.PORT || 5000, function(){
+    console.log('Server running at http://127.0.0.1:'+ (process.env.PORT || 5000) +'/');
 });
