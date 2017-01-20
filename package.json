@@ -4,7 +4,7 @@
   "description": "App Test",
   "main": "main.js",
   "scripts": {
-    "test": "node main.js"
+    "start": "node main.js"
   },
   "author": "GAMP",
   "license": "ISC"
